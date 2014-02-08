@@ -3,11 +3,11 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.ace.demo</groupId>
-	<version>1.0.0</version>
+	<groupId>ace.demo</groupId>
 	<artifactId>show-app-id</artifactId>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
-	<name>hello ace demo</name>
+	<name>${artifactId}</name>
 
 	<properties>
 		<slf_version>1.5.6</slf_version>
@@ -25,12 +25,6 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${slf_version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j_version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>

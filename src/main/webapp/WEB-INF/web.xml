@@ -4,7 +4,7 @@
 		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 	<servlet>
 		<servlet-name>appInfo</servlet-name>
-		<servlet-class>com.acedemo.hello.ace.ShowAppInfo</servlet-class>
+		<servlet-class>ace.demo.hello.ace.ShowAppInfo</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>appInfo</servlet-name>
